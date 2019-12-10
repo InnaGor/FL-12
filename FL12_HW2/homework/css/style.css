@@ -1,5 +1,39 @@
-/*
+.tm-nav-item:hover{
+background-color: lightskyblue;
+}
+.tm-nav-item-link:hover{
+    color: #fff;
+}
+.flex-2-col{
+    display: flex;
+    flex-direction: row;
+    }
+.tm-team-description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.box-bg:hover{
+background-color: lightgrey;
+color: lightskyblue;
+}
+.heading h2{
+text-align: center;
+color: lightskyblue;
+}
+.heading ol {
+    list-style-type: lower-alpha;
+}
+.heading ol li::before{
+    content: ">";
+}
+.text::after{
+    content: "new";
+    color: red;
+    vertical-align: super;
+    font-family: serif; 
+    font-weight: bold;
 
-write your code here
-
-*/
+}
