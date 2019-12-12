@@ -1,0 +1,12 @@
+@mixin button {
+background-color: $ButtonColor;
+    border: none;
+    border-radius: 2px;
+    height: 50px;
+    width: 145px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    @content;
+}
