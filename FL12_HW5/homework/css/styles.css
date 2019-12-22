@@ -11,7 +11,8 @@
 }
 
 body {
-  font-family: roboto;
+  font-family: "Roboto";
+  background-color: #0b192f;
 }
 .post-1 {
 	background: #9d27b0;
@@ -30,3 +31,68 @@ body {
 }
 
 /* Your styles go here */
+header{
+  width: 72vw;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 80px;
+  margin-bottom: 20px;
+  background-color: #024161;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  color: #ffff;
+  font-size: 40px;
+  font-weight: 300;
+
+}
+.logo span{
+  color: red;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+nav ul li{
+  list-style: none;
+  padding-left: 40px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 26px;
+}
+.big-board{
+  margin: 0 auto;
+  background-image: url(../img/post0.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80vw;
+  height: 50vh;
+
+}
+.big-board__text{
+  color: white;
+  width: 70%;
+  padding-top: 290px;
+  padding-left: 30px;
+}
+.big-board__text h1{
+  font-weight: 300;
+    font-size: 60px;
+    margin: 0;
+}
+.big-board__text p{
+  line-height: 2;
+}
+.content-text-1 {
+  width: 35vw;
+  height: 200px;
+  background: #9d27b0;
+}
