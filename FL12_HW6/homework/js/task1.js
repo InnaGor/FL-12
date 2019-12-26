@@ -1,17 +1,17 @@
 
-let a = parseInt(prompt("a=", ""));
-let b = parseInt(prompt("b=", ""));
-let c = parseInt(prompt("c=", ""));
+let a = parseInt(prompt('a=', ''));
+let b = parseInt(prompt('b=', ''));
+let c = parseInt(prompt('c=', ''));
 
 if (isNaN(a) || isNaN(b) || isNaN(c)) {
-    alert("Invalid input data");
+    alert('Invalid input data');
 }
 
 
-let discriminant = (b * b) - (4 * (a * c));
+let discriminant = b * b - 4 * (a * c);
 if (discriminant < 0) {
-    console.log("no solution");
-} else if (discriminant == 0) {
+    console.log('no solution');
+} else if (discriminant === 0) {
     let x = -b / (2 * a);
     console.log(`x = ${x}`);
 
